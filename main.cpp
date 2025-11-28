@@ -20,6 +20,7 @@ int main() {
   string parte1 = descifrado.substr(1, 3);
   string parte2 = descifrado.substr(4);
 
-  cout << "Clave descifrada: " << respuesta << endl; //ahora no tiene s
+  cout << parte1 << " " << parte2 << endl; //y ahora no tiene la s
+
   
 }
