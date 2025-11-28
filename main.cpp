@@ -15,7 +15,11 @@ int main() {
   string parteInicial = clave4.substr(0, clave4.length() - rot);
   
   string respuesta = parteFinal + parteInicial;
-  
-  cout << "Clave descifrada: " << respuesta << endl; //no tiene espacio 
+
+  //las acomoda con espacio
+  string parte1 = descifrado.substr(1, 3);
+  string parte2 = descifrado.substr(4);
+
+  cout << "Clave descifrada: " << respuesta << endl; //ahora no tiene s
   
 }
